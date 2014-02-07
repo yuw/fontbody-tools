@@ -2,9 +2,8 @@ fontbody-tools
 ==============
 
 - afm2eps
-  - AFMファイルから各文字のbaseline付きboxを生成する
-  - 金属活字のボディを表現することになる
-  - AFMの在る既存の文字から活字ボディのみのfont fileを作成したい
+  - AFMファイルから各文字のbaseline付きバウンディングボックスを表現
+  - AFMの在る既存の文字からバウンディングのみのfont fileを作成したい
   - AFM/TFMを利用し，カーニング情報を与えれば，
     ボディ情報を視覚化したfont fileを作成可能
   - PFB/PFA/PFM -> AFM: pf2afm (exist in ghostscript)
